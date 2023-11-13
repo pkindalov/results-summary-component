@@ -1,0 +1,53 @@
+.summary-card {
+  //border: 1px solid green;
+  //height: 20rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+
+  &__item {
+    //border: 1px solid green;
+    border-radius: .9rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 90%;
+    gap: 1rem;
+
+    &--reaction {
+      background-color: $light-red-bg;
+    }
+
+    &--memory {
+      background-color: $light-yellow-bg;
+    }
+  }
+
+  &__icon {
+    //width: 2rem;
+    width: 10%;
+    //border: 1px solid red;
+  }
+
+  &__category {
+    //border: 1px solid green;
+    width: 50%;
+
+    &--reaction {
+      color: $light-red;
+    }
+
+    &--memory {
+      color: $orange-yellow;
+    }
+  }
+
+  &__max-points {
+    color: hsla(0, 0%, 48%, .6);
+  }
+
+  &__score-points {
+    color: $dark-gray-blue;
+  }
+}
