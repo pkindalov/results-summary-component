@@ -23,6 +23,20 @@ body {
     margin-top: 2rem;
 }
 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.3rem 0;
+    border-radius: 3rem;
+    width: 92%;
+}
+
+.btn--dark {
+    color: white;
+    background-color: #303b5a;
+}
+
 .results-summary {
     width: 70rem;
     height: 40rem;
@@ -119,6 +133,14 @@ body {
     background-color: rgba(253, 206, 129, 0.1);
 }
 
+.summary-card__item--verbal {
+    background-color: rgba(107, 235, 203, 0.1);
+}
+
+.summary-card__item--visual {
+    background-color: rgba(200, 199, 255, 0.2);
+}
+
 .summary-card__icon {
     width: 10%;
 }
@@ -133,6 +155,14 @@ body {
 
 .summary-card__category--memory {
     color: #ffb01f;
+}
+
+.summary-card__category--verbal {
+    color: #00bd91;
+}
+
+.summary-card__category--visual {
+    color: #2e2be9;
 }
 
 .summary-card__max-points {

@@ -22,6 +22,15 @@
     &--memory {
       background-color: $light-yellow-bg;
     }
+
+    &--verbal {
+      background-color: $light-green-bg;
+    }
+
+    &--visual {
+      background-color: $light-purple-bg;
+    }
+
   }
 
   &__icon {
@@ -40,6 +49,14 @@
 
     &--memory {
       color: $orange-yellow;
+    }
+
+    &--verbal {
+      color: $green-teal;
+    }
+
+    &--visual {
+      color: $light-royal-blue;
     }
   }
 

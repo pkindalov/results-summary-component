@@ -1,0 +1,13 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.3rem 0;
+  border-radius: $base-border-radius;
+  width: 92%;
+
+  &--dark {
+    color: $white;
+    background-color: $dark-gray-blue;
+  }
+}
