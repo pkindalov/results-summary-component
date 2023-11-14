@@ -23,6 +23,14 @@ body {
     margin-top: 2rem;
 }
 
+.u-margin-top-bigger {
+    margin-top: 4rem;
+}
+
+.u-margin-bottom-bigger {
+    margin-bottom: 4rem;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -39,7 +47,7 @@ body {
 
 .results-summary {
     width: 70rem;
-    height: 40rem;
+    height: 45rem;
     border: 1px solid red;
     margin: 20rem auto;
     border-radius: 3rem;
@@ -69,7 +77,6 @@ body {
 
 .results-summary__left-row-top-heading {
     color: #ebf1ff;
-    margin-top: 2rem;
 }
 
 .results-summary__circle {

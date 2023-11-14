@@ -1,6 +1,6 @@
 .results-summary {
   width: 70rem;
-  height: 40rem;
+  height: 45rem;
   border: 1px solid red;
   margin: 20rem auto;
   border-radius: $base-border-radius;
@@ -29,7 +29,7 @@
 
   &__left-row-top-heading {
     color: $pale-blue;
-    margin-top: 2rem;
+    //margin-top: 2rem;
   }
 
   &__circle {
