@@ -6,6 +6,7 @@
     <!-- displays site properly based on user's device -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/index.js" type="module" defer></script>
     <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
@@ -24,13 +25,12 @@
         </div>
         <div class="results-summary__row results-summary__row--right">
             <h4 class="results-summary__right-row-top-heading">Summary</h4>
-            <div class="summary-card">
+            <div id="js-data"></div>
+            <div class="summary-card u-hidden">
                 <div class="summary-card__item summary-card__item--reaction">
-                    <!--                    <div class="summary-card__icon summary-card__icon&#45;&#45;react">-->
                     <img class="summary-card__icon summary-card__icon--reaction"
                          src="./assets/images/icon-reaction.svg"
                          alt="reaction image">
-                    <!--                    </div>-->
                     <div class="summary-card__category summary-card__category--reaction">Reaction</div>
                     <div class="summary-card__score-points">80</div>
                     <div class="summary-card__separator">/</div>
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="summary-card">
+            <div class="summary-card u-hidden">
                 <div class="summary-card__item summary-card__item--memory">
                     <img class="summary-card__icon summary-card__icon--memory"
                          src="./assets/images/icon-memory.svg"
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="summary-card">
+            <div class="summary-card u-hidden">
                 <div class="summary-card__item summary-card__item--verbal">
                     <img class="summary-card__icon summary-card__icon--verbal"
                          src="./assets/images/icon-verbal.svg"
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="summary-card">
+            <div class="summary-card u-hidden">
                 <div class="summary-card__item summary-card__item--visual">
                     <img class="summary-card__icon summary-card__icon--visual"
                          src="./assets/images/icon-visual.svg"

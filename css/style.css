@@ -19,18 +19,6 @@ body {
     font-size: 1.8rem;
 }
 
-.u-margin-top-small {
-    margin-top: 2rem;
-}
-
-.u-margin-top-bigger {
-    margin-top: 4rem;
-}
-
-.u-margin-bottom-bigger {
-    margin-bottom: 4rem;
-}
-
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -195,4 +183,20 @@ body {
 
 .summary-card__score-points {
     color: #303b5a;
+}
+
+.u-margin-top-small {
+    margin-top: 2rem;
+}
+
+.u-margin-top-bigger {
+    margin-top: 4rem;
+}
+
+.u-margin-bottom-bigger {
+    margin-bottom: 4rem;
+}
+
+.u-hidden {
+    display: none;
 }
